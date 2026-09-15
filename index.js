@@ -998,7 +998,7 @@ function wallpaper_init_config_controls(definitions) {
     '.config-row-label { font-size: 12px; font-weight: 600; }' +
     'button { padding: 8px 16px; border-radius: 4px; background-color: unset; border-color: rgb(199, 159, 234); color: rgb(199, 159, 234); }' +
     '</style>';
-  let configHTML = '<html><head><title></title>' + configStyle + '</head><body>' +
+  let configHTML = '<html><head><title>Grades and Attendance</title>' + configStyle + '</head><body>' +
     '<div class="wallpaper-header"><h1>Live Wallpaper Configurator</h1><button id="wallpaper-reset-parameters">Reset parameters</button></div>' +
     '<div class="wallpaper-config" id="wallpaper-config"></div>' +
     '</body></html>'
